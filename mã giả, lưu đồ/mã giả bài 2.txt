@@ -1,0 +1,12 @@
+BEGIN
+  INPUT num
+  num = 2
+ IF num > 0
+     DISPLAY "number is positive integer"
+ ELSE num < 0
+     DISPLAY "number is negative"
+ ELSE 
+     DISPLAY "number = 0"
+ END IF
+
+END
