@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Border Shadow</title>
+    <style type="text/css">
+        p {
+            width: 100px; /*độ rộng*/
+            height: 100px;/*độ cao*/
+            background-color: #e1ddda;/*màu của nền*/
+            margin: 20px;/*khoảng cách trên phải dưới trái với 20px*/
+            display: inline-block;/*hàng ngang*/
+        }
+        p.one {
+            -moz-box-shadow: -5px -5px #777777;/*khi chạy bằng firefox*/
+            -webkit-box-shadow: -5px -5px #777777;/*khi chạy bằng google chrome và safari*/
+            box-shadow: -5px -5px #777777;/*hiệu ứng tương đương với px*/
+        }
+        p.two {
+            -moz-box-shadow: 5px 5px 5px #777777;/*khi chạy bằng firefox*/
+            -webkit-box-shadow: 5px 5px 5px #777777;/*khi chạy bằng google chrome và safari*/
+            box-shadow: 5px 5px 5px #777777;/*hiệu ứng tương đương với px*/
+        }
+        p.three {
+            -moz-box-shadow: 5px 5px 5px 5px #777777;/*khi chạy bằng firefox*/
+            -webkit-box-shadow: 5px 5px 5px 5px #777777;/*khi chạy bằng google chrome và safari*/
+            box-shadow: 5px 5px 5px 5px #777777;/*hiệu ứng tương đương với px*/
+        }
+
+        p.four {
+            -moz-box-shadow: 0 0 10px #777777;/*khi chạy bằng firefox*/
+            -webkit-box-shadow: 0 0 10px #777777;/*khi chạy bằng google chrome và safari*/
+            box-shadow: 0 0 10px #777777;/*hiệu ứng tương đương với px*/
+        }
+
+        p.five {
+            -moz-box-shadow: inset 0 0 10px #777777;/*khi chạy bằng firefox*/
+            -webkit-box-shadow: inset 0 0 10px #777777;/*khi chạy bằng google chrome và safari*/
+            box-shadow: inset 0 0 10px #777777;/*hiệu ứng tương đương với px*/
+        }
+    </style>
+</head>
+<body>
+    <p class="one">ONE</p>
+    <p class="two">TWO</p>
+    <p class="three">THREE</p>
+    <br />
+    <p class="four">FOUR</p>
+    <p class="five">FIVE</p>
+</body>
+</html>

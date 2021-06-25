@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elliptical</title>
+    <style type="text/css">
+        p {
+            border: 5px solid #ee3e80;/*khung dày 5px*/
+            padding: 10px;/*khoảng cách từ nội dung tới viền*/
+            width: 100px;/*chiều rộng 100px*/
+            height: 100px;/*chiều dài 100px*/
+            display: inline-block;/*khóa hàng ngang*/
+            margin: 20px;/*20px tương ứng với trên phải dưới trái*/
+        }
+        p.one {
+            border-top-left-radius: 80px 50px;/*góc trên và bên trái được uống cong*/
+            -moz-border-radius-top-left: 80px 50px;/*hỗ trợ cho firefox*/
+            -webkit-border-radius-top-left: 80px 50px;/*hỗ trợ cho google chrome*/
+        }
+        p.two {
+            border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;/*được uốn cong với giá trị em tương ứng*/
+            -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;/*hỗ trợ cho firefox*/
+            -webkit-border-radius:  1em 4em 1em 4em / 2em 1em 2em 1em;/*hỗ trợ cho google chrome*/
+        }
+        p.three {
+            padding: 0px;
+            border-radius: 100px;/*cả 4 góc được uốn cong*/
+            -moz-border-radius: 100px;/*hỗ trợ cho firefox/**/
+            -webkit-border-radius: 100px;/*hỗ trợ cho google chrome*/
+        }
+    </style>
+</head>
+<body>
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+</body>
+</html>
