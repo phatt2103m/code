@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nanove:link{
     text-decoration: underline;
     color: #FFF;
@@ -25,3 +26,32 @@
     background: #06F;
 }
 
+=======
+.nanove:link{
+    text-decoration: underline;
+    color: #FFF;
+    background: #008;
+    font-size: 30px;
+}
+.nanove:visited{
+    text-decoration: none;
+    color: #FFF;
+    background: #06a;
+}
+.nanove:hover{
+    text-decoration: none;
+    color: #FFF;
+    background:#000;
+}
+.nanove:focus{
+    text-decoration: none;
+    color: #FFF;
+    background: #06b;
+}
+.nanove:active{
+    text-decoration: underline;
+    color: #FFF;
+    background: #06F;
+}
+
+>>>>>>> ab125c79545c83c8ed075a1e2f19cfdb2acda4b9

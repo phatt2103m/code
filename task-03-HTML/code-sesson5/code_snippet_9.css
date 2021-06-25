@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 p:first-line
 {
     font-family: "Tahoma";
     font-weight: bolder;
     background-color: #FFFFCC;
+=======
+p:first-line
+{
+    font-family: "Tahoma";
+    font-weight: bolder;
+    background-color: #FFFFCC;
+>>>>>>> ab125c79545c83c8ed075a1e2f19cfdb2acda4b9
 }

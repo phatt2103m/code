@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p
 {
     color: green;
@@ -5,4 +6,13 @@ p
 .changed
 {
     background-color: red;
+=======
+p
+{
+    color: green;
+}
+.changed
+{
+    background-color: red;
+>>>>>>> ab125c79545c83c8ed075a1e2f19cfdb2acda4b9
 }

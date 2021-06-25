@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #navone a:link{
     text-decoration: underline;
     color: #005;
@@ -22,4 +23,30 @@
     text-decoration: none;
     color: #FFA500;
     background: transparent;
+=======
+#navone a:link{
+    text-decoration: underline;
+    color: #005;
+    background: transparent;
+}
+#navone a:visited{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}
+#navone a:hover{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}
+#navone a:focus{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+}
+#navone a:active{
+    text-decoration: none;
+    color: #FFA500;
+    background: transparent;
+>>>>>>> ab125c79545c83c8ed075a1e2f19cfdb2acda4b9
 }
